@@ -1,0 +1,9 @@
+Write a program which requires the user to input 4 numbers in succession.
+
+The program will output
+
+"The order is correct" if:
+	- Number 1 is smaller than number 2, and number 2 is smaller than number 3
+	- Number 4 is greater than at least one of the 3 previous numbers
+	
+"The order is incorrect" if any of the above scenario fails.

@@ -1,0 +1,30 @@
+Here is an example of an else if statement.
+It displays the age range of a person.
+
+
+------------------------------------------
+
+Scanner keyboard = new Scanner(System.in);
+String ageRange;
+int age = keyboard.nextInt();
+
+if (age < 10) {
+	ageRange = "You are less than 10 years old!";
+}
+else if (age < 20) {
+	ageRange = "You are between 10 and 19 years old!";
+}
+else if (age < 50) {
+	ageRange = "You are between 20 and 49 years old!";
+}
+else if (age < 100) {
+	ageRange = "You are between 50 and 99 years old!";
+}
+else {
+	ageRange = "You are a centenary!"; // Centenary means 100 years or older
+}
+
+
+System.out.println(ageRange);
+
+------------------------------------------

@@ -1,0 +1,53 @@
+This is an example of a switch statement using the waterfall approach discussed in tutorial 3.
+It displays whether the value entered by the user is odd or even.
+
+
+------------------------------------------
+
+Scanner keyboard = new Scanner(System.in);
+String result;
+int value = keyboard.nextInt();
+
+switch (value)
+{
+  case 1:
+  case 3:
+  case 5:
+  case 7:
+  case 9:
+     result = "odd";
+     break;
+
+  case 0:
+  case 2:
+  case 4:
+  case 6:
+  case 8:
+     result = "even;
+     break;
+}
+
+System.out.println(result);
+
+------------------------------------------
+
+
+Note that a better way of doing this would be to use the modulo operator in an "if-else" statement as seen in the tutorial.
+
+
+------------------------------------------
+
+Scanner keyboard = new Scanner(System.in);
+String result;
+int value = keyboard.nextInt();
+
+if (value % 2 == 0) {
+	result = "even";
+}
+else {
+	result = "odd";
+}
+
+System.out.println(result);
+
+------------------------------------------

@@ -1,0 +1,23 @@
+Write a Java program using the following 2 different array declarations, which contain 25 random numbers between 1 and 50:
+
+int arr1[] =
+{
+    39, 29, 11, 33, 7,
+    21, 3, 26, 9, 5,
+    34, 25, 6, 27, 20,
+    31, 24, 46, 23, 37,
+    10, 28, 43, 17, 1
+};
+        
+int arr2[] =
+{
+    5, 10, 28, 21, 12,
+    13, 9, 17, 50, 25,
+    46, 15, 4, 2, 20,
+    16, 11, 47, 29, 32,
+    1, 48, 42, 27, 44
+};
+
+Using another array, store all the intersections between the 2 arrays.
+That is, if a number is contained in the first array and also in the second one, add it to the new array.
+After the 2 arrays have been inspected, print the contents of the intersection array to the screen.

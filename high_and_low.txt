@@ -1,0 +1,17 @@
+Write a java program that asks the user for 10 values using a for-loop, and prints the highest and lowest values.
+
+Example output:
+
+Enter value 1: 3
+Enter value 2: 12
+Enter value 3: 65
+Enter value 4: -1
+Enter value 5: 17
+Enter value 6: -36
+Enter value 7: 111
+Enter value 8: 68
+Enter value 9: -33
+Enter value 10: 0
+
+Highest value = 111
+Lowest value = -36
